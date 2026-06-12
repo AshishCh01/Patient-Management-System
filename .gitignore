@@ -1,0 +1,93 @@
+```gitignore
+# ======================================
+# Python / FastAPI
+# ======================================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+venv
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# SQLite databases (if used for testing)
+*.sqlite3
+
+# ======================================
+# React / Vite
+# ======================================
+node_modules/
+dist/
+build/
+coverage/
+vite.svg
+*.tsbuildinfo
+
+# ======================================
+# IDE Files
+# ======================================
+.vscode/
+.idea/
+
+# ======================================
+# OS Files
+# ======================================
+.DS_Store
+Thumbs.db
+
+# ======================================
+# Docker
+# ======================================
+docker-compose.override.yml
+
+# Ignore local Docker volumes (optional)
+postgres_data/
+pgdata/
+
+# ======================================
+# Uploads / Media
+# ======================================
+uploads/
+media/
+temp/
+
+# ======================================
+# Cache Files
+# ======================================
+.cache/
+
+# ======================================
+# Supabase
+# ======================================
+.supabase/
+
+# ======================================
+# Environment-specific files
+# ======================================
+backend/.env
+frontend/.env
+
+# ======================================
+# Miscellaneous
+# ======================================
+*.bak
+*.swp
+*.tmp
+```
